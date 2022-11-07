@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fluentuiv9-testing/static/css/main.d27d2331.css",
+    "main.js": "/fluentuiv9-testing/static/js/main.bea0d022.js",
+    "static/js/787.c31a4358.chunk.js": "/fluentuiv9-testing/static/js/787.c31a4358.chunk.js",
+    "index.html": "/fluentuiv9-testing/index.html",
+    "main.d27d2331.css.map": "/fluentuiv9-testing/static/css/main.d27d2331.css.map",
+    "main.bea0d022.js.map": "/fluentuiv9-testing/static/js/main.bea0d022.js.map",
+    "787.c31a4358.chunk.js.map": "/fluentuiv9-testing/static/js/787.c31a4358.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d27d2331.css",
+    "static/js/main.bea0d022.js"
+  ]
+}
