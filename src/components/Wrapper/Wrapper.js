@@ -14,7 +14,9 @@ function Wrapper(props) {
   const {key} = useLocation();
   
   useEffect(() => {
-    dispatch(update(heading));
+    if (heading !== process.env.REACT_APP_BASE_TITLE) {
+      dispatch(update(`${heading} | ${process.env.REACT_APP_BASE_TITLE}`));
+    }
     if(key !== 'default') headingRef.current.focus()
   }, [dispatch, heading, key]);
   

@@ -22,7 +22,7 @@ function App() {
   }, [loc]);
   return (
     <React.Fragment>
-      <Router>
+      <Router basename={`${process.env.REACT_APP_BASE_URL}`}>
         <nav>
           <ul>
             <li className="home">
