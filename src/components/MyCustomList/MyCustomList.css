@@ -1,0 +1,14 @@
+.cb-MyCustomList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cb-MyCustomList-item {
+  margin: 0 0 calc(var(--gutter) / 10) 0;
+}
+
+.cb-MyCustomList-item > a:focus {
+  outline: 2px solid rgba(var(--color--dark-blue), 1);
+  border-radius: 4px;
+}

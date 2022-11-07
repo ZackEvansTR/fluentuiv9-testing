@@ -1,0 +1,5 @@
+.wrapper h1:focus {
+  outline: 2px solid rgba(var(--color--dark-blue), 1);
+  padding: calc(var(--gutter) / 6);
+  border-radius: 4px;
+}

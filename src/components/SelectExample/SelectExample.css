@@ -1,0 +1,8 @@
+.fui-Select__icon {
+  right: calc(var(--gutter) / 3);
+}
+
+.fui-Select__select:focus {
+  border: 2px solid rgba(var(--color--dark-blue), 1);
+  border-radius: 4px;
+}

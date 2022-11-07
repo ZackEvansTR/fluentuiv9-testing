@@ -1,0 +1,30 @@
+.fui-AccordionHeader {
+  font-size: 1rem;
+}
+
+.fui-AccordionHeader > button {
+    padding: calc(var(--gutter) / 6) 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fui-AccordionHeader > button:focus {
+  outline: 2px solid rgba(var(--color--dark-blue), 1);
+  border-radius: 4px;
+}
+
+.fui-AccordionHeader > button > svg {
+  transform: scale(0.3);
+}
+
+.fui-AccordionHeader > button[aria-expanded="true"] > svg {
+  transform: scale(0.3) rotate(180deg);
+}
+
+.fui-AccordionHeader__expandIcon {
+  display: none !important;
+}
+
+.fui-AccordionItem {
+  border-bottom: 1px solid rgba(var(--color--light-gray), 1);
+}
