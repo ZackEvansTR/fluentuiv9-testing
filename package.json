@@ -2,6 +2,7 @@
   "name": "fluentuiv9-testing",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zackevanstr.github.io/fluentuiv9-testing",
   "dependencies": {
     "@fluentui/react-components": "^9.6.1",
     "@reduxjs/toolkit": "^1.8.6",
