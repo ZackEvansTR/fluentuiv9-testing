@@ -11,7 +11,7 @@ export const accordionData = [
         href: '#',
       },
       {
-        label: 'Accordion one child two',
+        label: 'Accordion one child three',
         href: '#',
       },
     ],
